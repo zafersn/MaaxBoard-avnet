@@ -60,8 +60,11 @@ Table of contents
 
 ## How to calculate GPIO pin number: 
 
-here it is. The GPIO pins could also be used, by calculating the gpio number as follows:
-
+The GPIO pins could also be used, by calculating the gpio number as follows:
+```
 gpio_number = (chip_number -1) * 32 + gpio port
-
-For example, GPIO port 11 on gpio3 is: (3-1)*32 +11 = 75.
+```
+For example,
+```
+GPIO port 11 on gpio3 is: (3-1)*32 +11 = 75.
+```
