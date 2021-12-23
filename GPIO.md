@@ -1,2 +1,48 @@
-## 40 Pin Expansion Pin Header Definition
+## 40 Pin Expansion Pin Header Definition (J1O Header)
 
+![40Pin Pin Header Pin1 Position](pics/maxboardpinout_DVkjJFglZm.jpg)
+
+
+| Pin  | Signal Description | Signal Type | Comment |
+| ------------- | ------------- | ------------- | ------------- |
+| 1 |  NVCC_3V3 | Power  |  |
+| 2 |  5V_IN | Power  |  | 
+| 3 |  I2C2_SDA | IO |  |
+| 3 |  5V_IN | Power |  |
+| 4 |  I2C2_SCL | IO |  |
+| 5 |  GND | Ground |  |
+| 6 |  GPIO3_IO16  | IO |  |
+| 7 |  GPIO3_IO16 | IO |  |
+| 8 |  UART1_TXD | IO |  |
+| 9 |  GND | Ground |  |
+| 10 | UART1_RXD  | IO |  |
+| 11 | GPIO3_IO17  | IO |  |
+| 12 | SAI2_TXC  | IO |  |
+| 13 | GPIO3_IO08  | IO |  |
+| 14 | GND | Ground |  |
+| 15 | GPIO3_IO09  | IO |  |
+| 16 | UART2_RXD  | IO  |  |
+| 17 | NVCC_3V3  | Power |  |
+| 18 | UART2_TXD  | IO |  |
+| 19 | GPIO3_IO06  | IO |  |
+| 20 | GND  | Ground |  |
+| 21 | GPIO3_IO07  | IO |  |
+| 22 | GPIO3_IO15  | IO |  |
+| 23 | GPIO3_IO00  | IO |  |
+| 24 | GPIO3_IO01  | IO |  |
+| 25 | GND  |  |  |
+| 26 | GPIO3_IO02  | IO |  |
+| 27 | I2C3_SDA  | IO |  |
+| 28 | I2C3_SCL  | IO |  |
+| 29 | GPIO3_IO05  | IO |  |
+| 30 | GND  | Ground |  |
+| 31 | GPIO3_IO10  | IO |  |
+| 32 | GPIO1_IO15  | IO |  |
+| 33 | GPIO1_IO13  | IO |  |
+| 34 | GND  | Ground |  |
+| 35 | SAI2_RXFS  |  |  |
+| 36 | GPIO1_IO03   | IO |  |
+| 37 | GPIO3_IO11  | IO |  |
+| 38 | SAI2_RXD  | IO |  |
+| 39 | GND  | Ground |  |
+| 40 | SAI2_TXD  | IO |  |
