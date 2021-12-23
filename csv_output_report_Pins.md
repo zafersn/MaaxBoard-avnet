@@ -1,5 +1,5 @@
-﻿sep=|
 Pin|Pin name|Label|Identifier|GPIO|DRAM|sai|uSDHC|USB3|eNET|SRC|ARM_PLATFORM|MIPI_CSI|NAND|PCIE|HDMI|UART|QSPI|CCM|ECSPI|PWM|MIPI_DSI|GPT|I2C|SJC|XTALOSC|SNVS|SDMA|SPDIF|Other|Routing for BOARD_InitPins
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 B1|VSS43|||||||||||||||||||||||||||||
 C1|SAI1_TXD7|||GPIO4_IO19(GPIO4,gpio_io,19)||SAI1_TX_DATA7(SAI1,sai_tx_data,7)/SAI6_MCLK(SAI6,sai_mclk)||||SRC_BOOT_CFG15(SRC,src_boot_cfg,15)|ARM_PLATFORM_TRACE15(ARM_PLATFORM,arm_platform_trace,15)|||||||||||||||||||
 D1|SAI1_TXD3|||GPIO4_IO15(GPIO4,gpio_io,15)||SAI1_TX_DATA3(SAI1,sai_tx_data,3)/SAI5_TX_DATA3(SAI5,sai_tx_data,3)||||SRC_BOOT_CFG11(SRC,src_boot_cfg,11)|ARM_PLATFORM_TRACE11(ARM_PLATFORM,arm_platform_trace,11)|||||||||||||||||||
