@@ -1,3 +1,15 @@
+# MaaxBoard GPIO
+
+Table of contents
+=================
+
+<!--ts-->
+  * [ 40 Pin Expansion Pin Header Definition (J1O Header)](#40-pin-expansion-pin-header-definition-j1o-header)
+  * [ How to calculate GPIO pin number](#st-ll-2)
+  
+<!--te-->
+
+
 ## 40 Pin Expansion Pin Header Definition (J1O Header)
 
 ![40Pin Pin Header Pin1 Position](pics/maxboardpinout_DVkjJFglZm.jpg)
@@ -45,3 +57,11 @@
 | 38 | J4| GPIO4_IO23(GPIO4) |SAI2_RXD  | IO |  
 | 39 | | |GND  | Ground |  
 | 40 | G5| GPIO4_IO26(GPIO4) |SAI2_TXD  | IO |  
+
+## How to calculate GPIO pin number: 
+
+here it is. The GPIO pins could also be used, by calculating the gpio number as follows:
+
+gpio_number = (chip_number -1) * 32 + gpio port
+
+For example, GPIO port 11 on gpio3 is: (3-1)*32 +11 = 75.
