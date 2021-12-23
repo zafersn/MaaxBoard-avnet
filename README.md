@@ -11,3 +11,6 @@ Working on it. Basic notes and Quick Information.
       * Processor: MIMX8MQ6xxxHZ
       * Part Number: MIMX8MQ6CVAHZ
       * Core: Cortex-A53(core#0-3) + Cortex-M4F    
+
+### Referances
+ * https://community.element14.com/products/roadtest/b/blog/posts/maaxboard-roadtest-direct-gpio 
