@@ -5,7 +5,7 @@ Table of contents
 
 <!--ts-->
   * [ 40 Pin Expansion Pin Header Definition (J1O Header)](#40-pin-expansion-pin-header-definition-j1o-header)
-  * [ How to calculate GPIO pin number](#st-ll-2)
+  * [ How to calculate GPIO pin number](#how-to-calculate-gpio-pin-number)
   
 <!--te-->
 
