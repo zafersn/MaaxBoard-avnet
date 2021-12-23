@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-﻿sep=||||||||||||||||||||||||||
 Pin|Pin name|GPIO|DRAM|sai|uSDHC|USB3|eNET|SRC|ARM_PLATFORM|MIPI_CSI|NAND|PCIE|HDMI|UART|QSPI|CCM|ECSPI|PWM|MIPI_DSI|GPT|I2C|SJC|XTALOSC|SNVS|SDMA|SPDIF
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 B1|VSS43|||||||||||||||||||||||||
 C1|SAI1_TXD7|GPIO4_IO19(GPIO4|gpio_io|19)||SAI1_TX_DATA7(SAI1|sai_tx_data|7)/SAI6_MCLK(SAI6|sai_mclk)||||SRC_BOOT_CFG15(SRC|src_boot_cfg|15)|ARM_PLATFORM_TRACE15(ARM_PLATFORM|arm_platform_trace|15)||||||||
 D1|SAI1_TXD3|GPIO4_IO15(GPIO4|gpio_io|15)||SAI1_TX_DATA3(SAI1|sai_tx_data|3)/SAI5_TX_DATA3(SAI5|sai_tx_data|3)||||SRC_BOOT_CFG11(SRC|src_boot_cfg|11)|ARM_PLATFORM_TRACE11(ARM_PLATFORM|arm_platform_trace|11)|||||||
@@ -1246,4 +1245,3 @@ AA25|DRAM_DQ06||||DRAM_DQ06(DRAM,dram_dq,06)|||||||||||||||||||||||||
 AB25|DRAM_DQ07||||DRAM_DQ07(DRAM,dram_dq,07)|||||||||||||||||||||||||
 AC25|DRAM_DQS0_N||||DRAM_DQS0_N(DRAM,dram_dqs0_n)|||||||||||||||||||||||||
 AD25|VSS140|||||||||||||||||||||||||||||
->>>>>>> 53c775e013fb21bedfa90eaaa3eac36c4034b5be
