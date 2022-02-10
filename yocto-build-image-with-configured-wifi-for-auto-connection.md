@@ -6,7 +6,8 @@ briefly: what do we need to create a configured wifi image in Yocto
   1. Create **.sh(wifi_configure_sta.sh)** file to initialize and configure `/etc/wpa_supplicant.conf` file at booting the OS up 
   2. Edit **initscripts.bb** file to add our script to install it in after build
 1. Creating script...  in `~/imx-yocto/sources/poky/meta/recipes-core/initscripts/initscripts-1.0`
-  I created a basic wifi configuration sh file named wifi_configure_sta.sh to do it. check it out :  https://github.com/zafersn/MaaxBoard-avnet/blob/main/wifi_configure_sta.sh 
+  I created a basic wifi configuration sh file named wifi_configure_sta.sh to do it. <br>
+  *check it out :  https://github.com/zafersn/MaaxBoard-avnet/blob/main/wifi_configure_sta.sh*
   briefly: what are we doing in this script: 
   1. check **wpa_supplicant** folder in the /etc folder, if it does not exist create it. 
   2. check **wpa_supplicant.conf** file in the /etc folder, if it does not exist create it. if it exists, check every single line whether or not it was configured properly.
