@@ -1,7 +1,9 @@
 # Build a yocto image with configured wifi/scripts for auto connection at boot
 
 it might be difficult re-configuration of wifi every time, when building an image. To tackle this issue you can follow these few simple steps and build a pre-configured wifi image.
+
 Let's start at the very beginning <br>
+
 briefly: what do we need to create a configured wifi image in Yocto
   1. Create **.sh(wifi_configure_sta.sh)** file to initialize and configure `/etc/wpa_supplicant.conf` file at booting the OS up 
   2. Edit **initscripts.bb** file to add our script to install it in after build
