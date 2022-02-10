@@ -1,7 +1,7 @@
 # Build a yocto image with configured wifi/scripts for auto connection at boot
 
-it might be diffucult re-configuration of wifi every time, when building an image. To tackle this issue you can follow these few simple steps and build a pre-configured wifi image.
-Let's start at the very beginnig
+it might be difficult re-configuration of wifi every time, when building an image. To tackle this issue you can follow these few simple steps and build a pre-configured wifi image.
+Let's start at the very beginning
 briefly: what do we need to create a configured wifi image in Yocto
   1. Create .sh(wifi_configure_sta.sh) file to initialize and configure `/etc/wpa_supplicant.conf` file at booting the OS up 
   2. Edit initscripts.bb file to add our script to install it in after build
@@ -31,7 +31,7 @@ briefly: what do we need to create a configured wifi image in Yocto
       ping -q -c1 google.com 
       ```
 2. Edit initscripts_1.0.bb in ~/imx-yocto/sources/poky/meta/recipes-core/initscripts/
-   Add these key words into the code block that I mentioned below
+   Add these keywords into the code block that I mentioned below
    1. .sh file name into SRC_URI code block
       ```
       SRC_URI = " \
@@ -55,7 +55,7 @@ briefly: what do we need to create a configured wifi image in Yocto
       wifi_configure_sta \
       "
       ```
-   4. Last but not least, we need to add "bash" keyword to it because our sh file is a bash script file.
+   4. Last but not least, we need to add the "bash" keyword to it because our sh file is a bash script file.
       ```
        RDEPENDS_${PN} = " \
        bash \
