@@ -12,5 +12,9 @@ Working on it. Basic notes and Quick Information.
       * Part Number: MIMX8MQ6CVAHZ
       * Core: Cortex-A53(core#0-3) + Cortex-M4F    
  * [Build a yocto image with configured wifi/scripts for auto connection at boot](https://github.com/zafersn/MaaxBoard-avnet/blob/main/yocto-build-image-with-configured-wifi-for-auto-connection.md)
+
+### During learning process, I got some notes. Here it is:
+ * [Note-Yocto&Linux-Developing](https://github.com/zafersn/MaaxBoard-avnet/blob/main/linux-developing-note.md)
+
 ### Referances
  * https://community.element14.com/products/roadtest/b/blog/posts/maaxboard-roadtest-direct-gpio 
