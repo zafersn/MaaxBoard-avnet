@@ -15,6 +15,7 @@ Working on it. Basic notes and Quick Information.
 
 ### During learning process, I got some notes. Here it is:
  * [Note-Yocto&Linux-Developing](https://github.com/zafersn/MaaxBoard-avnet/blob/main/linux-developing-note.md)
+ * [Note-General-Developing-on-lnx](https://github.com/zafersn/MaaxBoard-avnet/blob/main/linux-developing-note.md)
 
 ### Referances
  * https://community.element14.com/products/roadtest/b/blog/posts/maaxboard-roadtest-direct-gpio 
