@@ -2,7 +2,7 @@
 
 
 
-### 1- To create a new yocto-layer, run 
+* **To create a new yocto-layer, run** 
 ```bash
 bitbake-layers create-layer meta-bsp-custom
 ```
@@ -13,11 +13,24 @@ such as:
 BBLAYERS += " ${BSPDIR}/sources/meta-bsp-custom "
 ```
 
-### 2- To see dtb file located path,
+* **To see dtb file located path,**
 
 during the booting you need to stop booting and run "**printenv**" command.
 
 ![printenv during boot](pics/ss-printenv-at-boot.png)
+
+* **To compile dts file (from dts to dtb)**
+```bash
+dtc -O dtb -o maaxboard-dcss-hdmi.dtb maaxboard-dcss-hdmi.dts
+```
+
+* **To get from dtb file to dts file**
+```bash
+dtc -I dtb -O dts maaxboard-dcss-hdmi.dtb -o maaxboard-dcss-hdmi.dts
+```
+
+
+**---------------------------------------------------------**
 
 ## Random note, might be helpful, check them out: 
 
