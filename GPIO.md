@@ -15,8 +15,8 @@ Table of contents
 ![40Pin Pin Header Pin1 Position](pics/maxboardpinout_DVkjJFglZm.jpg)
 
 
-| Maax Pin Num | SYS PIN NUM| Package Pin   | GPIO | Pin Name | Signal Type | 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| Maax Pin Num | SYS PIN NUM| Package Pin   | GPIO | Pin Name | Signal Type |  DT Defination
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------|
 | 1 || |  |NVCC_3V3 | Power  |  
 | 2 || |  |5V_IN | Power  |  
 | 3 || F7| GPIO5_IO17(GPIO5) |I2C2_SDA | IO |  
@@ -48,15 +48,15 @@ Table of contents
 | 29 || H21| GPIO3_IO05 |  | IO |  
 | 30 || | |GND  | Ground |  
 | 31 || L20| GPIO3_IO10 |  | IO |  
-| 32 || J6| GPIO1_IO15 |  | IO |  
-| 33 || K6| GPIO1_IO13 |  | IO |  
+| 32 || J6| GPIO1_IO15 |  | IO |  MX8MQ_IOMUXC_GPIO1_IO15_PWM4_OUT |
+| 33 || K6| GPIO1_IO13 |  | IO |  MX8MQ_IOMUXC_GPIO1_IO13_PWM2_OUT |
 | 34 || | |GND  | Ground |  
 | 35 || J4| GPIO4_IO21(GPIO4) |SAI2_RXFS  |  |  
 | 36 |3| P4| GPIO1_IO03 |   | IO |  
 | 37 |75| J22| GPIO3_IO11 |  | IO | 
-| 38 |119| J4| GPIO4_IO23(GPIO4) |SAI2_RXD  | IO |  
+| 38 |119| J4| GPIO4_IO23(GPIO4) |SAI2_RXD  | IO | MX8MQ_IOMUXC_SAI2_RXD0_GPIO4_IO23 |
 | 39 || | |GND  | Ground |  
-| 40 |122| G5| GPIO4_IO26(GPIO4) |SAI2_TXD  | IO |  
+| 40 |122| G5| GPIO4_IO26(GPIO4) |SAI2_TXD  | IO |  MX8MQ_IOMUXC_SAI2_TXD0_GPIO4_IO26 |
 
 ## How to calculate GPIO pin number: 
 
