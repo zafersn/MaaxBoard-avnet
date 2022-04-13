@@ -19,7 +19,7 @@ create symbolic link
 ln -s /usr/src/kernel/ /lib/modules/4.14.78-1.0.0+g66620c3d281c/build
 ```
 
-* **Fixing error: /bin/sh: scripts/basic/fixdep: No such file or directory **
+* **Fixing error: /bin/sh: scripts/basic/fixdep: No such file or directory**
 
 for maaxboard/ yocto:
 ```
