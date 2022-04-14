@@ -28,7 +28,33 @@ dtc -O dtb -o maaxboard-dcss-hdmi.dtb maaxboard-dcss-hdmi.dts
 ```bash
 dtc -I dtb -O dts maaxboard-dcss-hdmi.dtb -o maaxboard-dcss-hdmi.dts
 ```
+* **To mount Hidden boot partition in order to edit uEnv.txt or dtb files**
 
+execute this command:  
+```bash
+ fdisk -l
+ ```
+ And you should get some output like below
+ ```
+Disk /dev/mmcblk0: 29.7 GiB, 31914983424 bytes, 62333952 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x89ce7595
+
+Device         Boot  Start      End  Sectors  Size Id Type
+/dev/mmcblk0p1       16384   147455   131072   64M  c W95 FAT32 (LBA)
+/dev/mmcblk0p2      147456 62333951 62186496 29.7G 83 Linux
+root@maax:/mnt#
+
+```
+as you see, we need to mount **/dev/mmcblk0p1** partition to edit files in that partition
+
+```bash
+mount /dev/mmcblk0p1 /mnt
+```
+Thus, we mounted the partition into the **/mnt**.
 
 **---------------------------------------------------------**
 
