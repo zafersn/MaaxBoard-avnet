@@ -68,7 +68,7 @@ mount /dev/mmcblk0p1 /mnt
 ```
 Thus, we mounted the partition into the **/mnt**.
 
-**---------------------------------------------------------**
+#
 
 ## Random note, might be helpful, check them out: 
 
