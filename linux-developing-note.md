@@ -1,8 +1,20 @@
-##This notes have been written considering maaxboard dev board based on IMX8MQ-EVK
+## This notes have been written considering maaxboard dev board based on IMX8MQ-EVK
 
+CONTENT-LIST
+=================
+<!--ts-->
+  * [ To create a new yocto-layer](#to-create-a-new-yocto-layer-run)
+  * [ To see dtb file located path](#to-see-dtb-file-located-path)
+  * [ To compile dts file (from dts to dtb](#to-compile-dts-file-from-dts-to-dtb)
+  * [ To get dts file from dtb file](#to-get-dts-file-from-dtb-file)
+  * [ To mount Hidden boot partition in order to edit uEnv.txt or dtb files](#to-mount-hidden-boot-partition-in-order-to-edit-uenvtxt-or-dtb-files)
+  <!--* [ To see dtb file located path](#)
+  * [ To see dtb file located path](#)
+  * [ To see dtb file located path](#)-->
+  
+<!--te-->
 
-
-* **To create a new yocto-layer, run** 
+### **To create a new yocto-layer, run** 
 ```bash
 bitbake-layers create-layer meta-bsp-custom
 ```
@@ -13,22 +25,22 @@ such as:
 BBLAYERS += " ${BSPDIR}/sources/meta-bsp-custom "
 ```
 
-* **To see dtb file located path,**
+### **To see dtb file located path,**
 
 during the booting you need to stop booting and run "**printenv**" command.
 
 ![printenv during boot](pics/ss-printenv-at-boot.png)
 
-* **To compile dts file (from dts to dtb)**
+### **To compile dts file (from dts to dtb)**
 ```bash
 dtc -O dtb -o maaxboard-dcss-hdmi.dtb maaxboard-dcss-hdmi.dts
 ```
 
-* **To get from dtb file to dts file**
+### **To get dts file from dtb file**
 ```bash
 dtc -I dtb -O dts maaxboard-dcss-hdmi.dtb -o maaxboard-dcss-hdmi.dts
 ```
-* **To mount Hidden boot partition in order to edit uEnv.txt or dtb files**
+### **To mount Hidden boot partition in order to edit uEnv.txt or dtb files**
 
 execute this command:  
 ```bash
