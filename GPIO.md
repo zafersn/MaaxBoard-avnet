@@ -35,12 +35,12 @@ Table of contents
 | 16 || B6| GPIO5_IO24(GPIO5) |UART2_RXD  | IO  | MX8MQ_IOMUXC_UART2_RXD_GPIO5_IO24 |  
 | 17 || | |NVCC_3V3  | Power |  
 | 18 || D6| GPIO5_IO25(GPIO5) |UART2_TXD  | IO | MX8MQ_IOMUXC_UART2_TXD_GPIO5_IO25 |
-| 19 || G20| GPIO3_IO06 |  | IO |  
+| 19 || G20| GPIO3_IO06 | ECSPI1_MOSI  | IO |  
 | 20 || | |GND  | Ground |  
-| 21 || J20| GPIO3_IO07 |  | IO |  
+| 21 || J20| GPIO3_IO07 | ECSPI1_MISO  | IO |  
 | 22 || K19| GPIO3_IO15 |  | IO |  
-| 23 || G19| GPIO3_IO00 |  | IO |  
-| 24 || H19| GPIO3_IO01 |  | IO |  
+| 23 || G19| GPIO3_IO00 | ECSPI1_SCLK | IO |  
+| 24 || H19| GPIO3_IO01 | ECSPI1_SS0 | IO |  
 | 25 || | |GND  |  |  
 | 26 || G21| GPIO3_IO02|  | IO |  
 | 27 || E9| GPIO5_IO19(GPIO5) |I2C3_SDA  | IO | MX8MQ_IOMUXC_I2C3_SDA_GPIO5_IO19 |
