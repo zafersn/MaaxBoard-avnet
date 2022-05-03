@@ -8,8 +8,8 @@ CONTENT-LIST
   * [ To compile dts file (from dts to dtb](#to-compile-dts-file-from-dts-to-dtb)
   * [ To get dts file from dtb file](#to-get-dts-file-from-dtb-file)
   * [ To mount Hidden boot partition in order to edit uEnv.txt or dtb files](#to-mount-hidden-boot-partition-in-order-to-edit-uenvtxt-or-dtb-files)
+  * [ To Print function name using by macro](#print-function-name-using-by-macro)
   <!--* [ To see dtb file located path](#)
-  * [ To see dtb file located path](#)
   * [ To see dtb file located path](#)-->
   
 <!--te-->
@@ -68,6 +68,17 @@ mount /dev/mmcblk0p1 /mnt
 ```
 Thus, we mounted the partition into the **/mnt**.
 
+
+### **Print function name using by macro**
+
+i.e. we have a function call ex5_simple_module_function
+
+```
+void ex5_simple_module_function()
+{
+  printk(KERN_ALERT,"Inside the %s function\n",__FUNCTION__);
+}
+```
 #
 
 ## Random note, might be helpful, check them out: 
