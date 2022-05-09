@@ -9,7 +9,7 @@ CONTENT-LIST
   * [ To get dts file from dtb file](#to-get-dts-file-from-dtb-file)
   * [ To mount Hidden boot partition in order to edit uEnv.txt or dtb files](#to-mount-hidden-boot-partition-in-order-to-edit-uenvtxt-or-dtb-files)
   * [ To Print function name using by macro](#print-function-name-using-by-macro)
-  * [ To Print current computer time by macro](#print-function-name-using-by-macro)
+  * [ To Print current computer time by macro](#to-print-current-computer-time-by-macro)
   <!--* [ To see dtb file located path](#)
   * [ To see dtb file located path](#)-->
   
@@ -81,7 +81,7 @@ void ex5_simple_module_function()
 }
 ```
 
-### **Print function name using by macro**
+### **To Print current computer time by macro**
 
 i.e. we have a function call ex5_simple_module_function
 
