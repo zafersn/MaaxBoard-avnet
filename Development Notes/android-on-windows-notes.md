@@ -3,11 +3,11 @@
 CONTENT-LIST
 =================
 <!--ts-->
-  * [ To install an apk by using adb](#to-create-a-new-yocto-layer-run)
-  * [ To find where adb shell installed](#to-see-dtb-file-located-path)
-  * [ To Get files from the android device by adb](#to-compile-dts-file-from-dts-to-dtb)
-  * [ To get File list on the android by adb](#to-get-dts-file-from-dtb-file)
-  * [ To Get screenshot](#to-mount-hidden-boot-partition-in-order-to-edit-uenvtxt-or-dtb-files)
+  * [ To install an apk by using adb](#to-install-an-apk-by-using-adb)
+  * [ To find where adb shell installed](#to-find-where-adb-shell-installed)
+  * [ To Get files from the android device by adb](#to-get-files-from-the-android-device-by-adb)
+  * [ To get File list on the android by adb](#to-get-file-list-on-the-android-by-adb)
+  * [ To Get screenshot](#to-get-screenshot)
  <!-- * [ To Print function name using by macro](#print-function-name-using-by-macro)
   * [ To Print current computer time by macro](#to-print-current-computer-time-by-macro)
   * [ To see dtb file located path](#)

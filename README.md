@@ -16,7 +16,7 @@ Working on it. Basic notes and Quick Information.
 ### During learning process, I got some notes. Here it is:
  * [Note-Yocto&Linux-Developing](https://github.com/zafersn/MaaxBoard-avnet/blob/main/Development%20Notes/linux-developing-note.md)
  * [Note-General-Developing-on-lnx](https://github.com/zafersn/MaaxBoard-avnet/blob/main/Development%20Notes/general-notes-on-linux.md)
- * [Note-Android-Developing-on-windows](https://github.com/zafersn/MaaxBoard-avnet/blob/main/Development%20Notes/general-notes-on-linux.md)
+ * [Note-Android-Developing-on-windows](https://github.com/zafersn/MaaxBoard-avnet/blob/main/Development%20Notes/android-on-windows-notes.md)
 
 ### Referances
  * https://community.element14.com/products/roadtest/b/blog/posts/maaxboard-roadtest-direct-gpio 
