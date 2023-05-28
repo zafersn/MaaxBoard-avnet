@@ -12,7 +12,7 @@ Table of contents
 
 ## 40 Pin Expansion Pin Header Definition (J1O Header)
 
-![40Pin Pin Header Pin1 Position](pics/maxboardpinout_DVkjJFglZm.jpg)
+![40Pin Pin Header Pin1 Position](../pics/maxboardpinout.jpg)
 
 
 | Maax Pin Num | SYS PIN NUM| Package Pin   | GPIO | Pin Name | Signal Type |
@@ -59,6 +59,7 @@ Table of contents
 | 40 |122| G5| GPIO4_IO26(GPIO4) |SAI2_TXD - (GPIO21/PCM_DOUT)L| IO |  
 
 ## How to calculate GPIO pin number: 
+![40Pin Pin Header Pin1 Position](../pics/maxboardpinout.jpg)
 
 The GPIO pins could also be used, by calculating the gpio number as follows:
 ```
