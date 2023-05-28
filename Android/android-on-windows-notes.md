@@ -52,6 +52,38 @@ i.e. define a filepath/filename.png
 .\adb.exe shell screencap  /storage/emulated/0/Pictures/Screenshots/ss_memory.png
 
 ```
+
+### **To collect log from driver messages buffer**
+
+```
+ .\adb.exe shell dmesg > dmesg_28_05_23_17_10.txt
+
+```
+log file will be in the same directory with adb.exe
+
+
+### **To collect System Logs**
+
+You can use the -d parameter to export the complete log in one go.
+
+The following filter expression displays all log messages with priority level "error" and higher on all tags:
+
+```
+ .\adb.exe logcat *:E -d > 28_05_23_17_00log.txt
+
+```
+
+```
+.\adb.exe logcat *:F -d > logcat_28_05_23_17_20.txt
+
+```
+
+
+log file will be in the same directory with adb.exe
+
+
+
+
 <!-- 
 ### **To Print current computer time by macro**
 

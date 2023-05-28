@@ -1,8 +1,9 @@
 ## Getting Started with MaaXboard On Android OS
 
-***Note***: <sub>This repo is my quick reminder, notting is offial here.
+***Note***: 
+<sub>This repo is my quick reminder, notting is offial here.</sub>
 
-Wellcome asking questions, corrections and giving feedback.</sub>
+<sub>Wellcome asking questions, corrections and giving feedback.</sub>
 
 
 ### How does Maaxboard(IMX8MQ6C) seems on the Android 9
