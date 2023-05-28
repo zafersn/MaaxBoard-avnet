@@ -1,4 +1,4 @@
-Pin|Pin name|GPIO|DRAM|sai|uSDHC|USB3|eNET|SRC|ARM_PLATFORM|MIPI_CSI|NAND|PCIE|HDMI|UART|QSPI|CCM|ECSPI|PWM|MIPI_DSI|GPT|I2C|SJC|XTALOSC|SNVS|SDMA|SPDIF
+|Pin|Pin name|GPIO|DRAM|sai|uSDHC|USB3|eNET|SRC|ARM_PLATFORM|MIPI_CSI|NAND|PCIE|HDMI|UART|QSPI|CCM|ECSPI|PWM|MIPI_DSI|GPT|I2C|SJC|XTALOSC|SNVS|SDMA|SPDIF|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 B1|VSS43|||||||||||||||||||||||||
 C1|SAI1_TXD7|GPIO4_IO19(GPIO4|gpio_io|19)||SAI1_TX_DATA7(SAI1|sai_tx_data|7)/SAI6_MCLK(SAI6|sai_mclk)||||SRC_BOOT_CFG15(SRC|src_boot_cfg|15)|ARM_PLATFORM_TRACE15(ARM_PLATFORM|arm_platform_trace|15)||||||||

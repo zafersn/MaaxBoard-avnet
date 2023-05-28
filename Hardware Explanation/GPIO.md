@@ -15,7 +15,7 @@ Table of contents
 ![40Pin Pin Header Pin1 Position](pics/maxboardpinout_DVkjJFglZm.jpg)
 
 
-| Maax Pin Num | SYS PIN NUM| Package Pin   | GPIO | Pin Name | Signal Type 
+| Maax Pin Num | SYS PIN NUM| Package Pin   | GPIO | Pin Name | Signal Type |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | 1 || |  |NVCC_3V3 | Power  |  
 | 2 || |  |5V_IN | Power  |  
