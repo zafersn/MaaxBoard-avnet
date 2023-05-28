@@ -59,7 +59,7 @@ Table of contents
 | 40 |122| G5| GPIO4_IO26(GPIO4) |SAI2_TXD - (GPIO21/PCM_DOUT)L| IO |  
 
 ## How to calculate GPIO pin number: 
-![40Pin Pin Header Pin1 Position](../pics/maxboardpinout.jpg)
+![40Pin Pin Header Pin1 Position](../pics/maxboardpinout_DVkjJFglZm)
 
 The GPIO pins could also be used, by calculating the gpio number as follows:
 ```

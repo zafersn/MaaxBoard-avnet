@@ -30,7 +30,7 @@ BBLAYERS += " ${BSPDIR}/sources/meta-bsp-custom "
 
 during the booting you need to stop booting and run "**printenv**" command.
 
-![printenv during boot](pics/ss-printenv-at-boot.png)
+![printenv during boot](../pics/ss-printenv-at-boot.png)
 
 ### **To compile dts file (from dts to dtb)**
 ```bash
