@@ -1,0 +1,6 @@
+
+sudo ./imx-sdcard-partition.sh -c 28 -f imx8mq /dev/mmcblk0
+
+
+
+sudo dd if=u-boot-imx8mq.imx of=/dev/mmcblk0 bs=1k seek=33 conv=fsync
