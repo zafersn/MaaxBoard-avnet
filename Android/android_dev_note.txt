@@ -1,0 +1,53 @@
+
+
+echo ${MY_ANDROID}
+/home/ubuhdd/android_build
+
+export MY_ANDROID=`pwd`
+
+export AARCH64_GCC_CROSS_COMPILE=/opt/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
+
+
+export CLANG_PATH=/opt/prebuilt-android-clang/
+
+
+to geneate and flash android img file,
+
+1. format your sd card as linux ext partition, ext4
+2. edit LOOP_NAME
+
+
+
+
+
+
+to build only bootloader first set board config
+	make maaxboard_defconfig
+then
+	make CROSS_COMPILE=${AARCH64_GCC_CROSS_COMPILE} -j8
+
+
+
+# U-Boot image for i.MX 8M Mini EVK board
+cd ${MY_ANDROID}
+source build/envsetup.sh
+lunch evk_8mm-userdebug
+./imx-make.sh bootloader -j8
+
+
+
+
+source build/envsetup.sh
+lunch maaxboard-userdebug
+
+./imx-make.sh -j8 2>&1 | tee build-log.txt
+
+to flash img file to the sd card:
+
+ sudo dd if=/home/username/Downloads/2012-10-28-wheezy-raspbian.img of=/dev/sdc status=progress bs=4M
+
+
+sudo dd if=u-boot-imx8mq.imx of=/dev/mmcblk0 bs=1k seek=33 conv=fsync
+
+
+sudo ./imx-sdcard-partition.sh -c 28 -f imx8mq /dev/mmcblk0

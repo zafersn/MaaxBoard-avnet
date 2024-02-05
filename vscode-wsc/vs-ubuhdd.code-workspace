@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../imx-yocto-bsp/sources/meta-maaxboard"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../imx-yocto-bsp/sources"
+		}
+	],
+	"settings": {}
+}

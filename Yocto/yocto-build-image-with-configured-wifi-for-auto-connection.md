@@ -73,3 +73,64 @@ briefly: what do we need to create a configured wifi image in Yocto
  	execute bitbake image-name
 	
 	
+# Connect Wi-Fi Manually on a Serial terminal
+Execute the following instructions on the serial terminal to search Wi-Fi network, It will print theinformation for all available network:
+
+```
+ifconfig wlan0 up
+```
+
+```
+iwlist wlan0 scan | grep ESSID
+```
+Configure SSID and SSID_PASSWD with the following command: (take "vodafone-111" as an example)
+
+```
+wpa_passphrase "vodafone-111" "12345678" >> /etc/wpa_supplicant.conf
+```
+Or edit /etc/wpa_supplicant.conf directly and append the following parameters:
+
+```
+nano /etc/wpa_supplicant.conf
+```
+
+
+if you dont know you wifi ssid and psw:  Run:
+
+```
+nmcli device wifi show-password
+```
+
+Then execute the following command:
+
+```
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf
+```
+if you have messages like these, dont worry, they are ok:
+
+```
+Successfully initialized wpa_supplicant
+rfkill: Cannot open RFKILL control device
+rfkill: Cannot get wiphy information
+```
+Run the following command to check wireless connection, it will print the following info once connected:
+
+```
+iwconfig wlan0 | grep ESSID
+```
+Run the command to get the IP address:
+
+
+```
+udhcpc -i wlan0 -n -R
+```
+```
+ifconfig wlan0
+```
+
+Test Wi-Fi network with ping command:
+
+```
+ping www.google.com -I wlan0
+```
+
